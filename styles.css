@@ -1,0 +1,25 @@
+.container {
+    height: 100vh;
+    text-align:center;
+    justify-content: center;
+
+}
+
+body{
+    background-color: #c136c2;
+}
+
+.h1-text {
+    color: white;
+    padding-top: 30vh;
+   
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.p-text {
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+}
