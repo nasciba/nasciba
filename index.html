@@ -5,19 +5,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Playfair+Display&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Playfair+Display&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>Amanda Nasciba</title>
+    <link rel="icon" href="public/profile.jpg" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <title> Amanda's Portfolio</title>
 </head>
 
 <body>
     <div class="container">
-        <h1 class="h1-text">Site em construção</h1>
-        <img src="https://media.giphy.com/media/vhsNmFjuN4WDS/source.gif" alt="Gato usando peruca rosa digitando"/>
-        <h4 class="p-text"> Volte mais tarde :D</h4>    
+        <section class="profile">
+            <img id="profile-img" src="public/profile.jpg">
+            <div class="profile-bio">
+                <h1>Amanda Nascimento Batista</h1>
+                <span><i class="fas fa-star"></i> front-end developer</span>
+                <span><i class="fas fa-bolt"></i> HTML, CSS, Javascript,React, Node.js, MongoDB</span>
+                <span><i class="fas fa-envelope"></i> amandanasciba@gmail.com</span>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/nasciba/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/nasciba" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+        <div class="container-sections">
+            <section>
+                <div class="section-title">
+                    <h1>Things I did</h1>
+                </div>
+                <div class="container-cards">
+                    <div class="card">
+                        <div class="card-title">
+                            <span>florie store</span>
+                        </div>
+                        <div class="card-body">
+                            <span>A full-stack project developed with React</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="https://florie.herokuapp.com" target="_blank"> deploy </a>
+                            <a href="https://github.com/nasciba/florie" target="_blank">front</a>
+                            <a href="https://github.com/nasciba/server-florie" target="_blank">back</a>
+                        </div>
+
+                    </div>
+                    <div class="card">
+                        <div class="card-title">
+                            <span>mars rover</span>
+                        </div>
+                        <div class="card-body">
+                            <span>Mars Rover challenge with Javascript</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="https://github.com/nasciba/Mars-Rover-Challenge" target="_blank">repository</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">
+                            <span>jogo da velha</span>
+                        </div>
+                        <div class="card-body">
+                            <span>A tic-tac-toe game - my very first coding project - developed with JS, HTML5 and
+                                CSS</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="https://nasciba.github.io/project-1-jogo-da-velha/" target="_blank">deploy</a>
+                            <a href="https://github.com/nasciba/project-1-jogo-da-velha" target="_blank">front</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
+    
 </body>
 
 </html>
